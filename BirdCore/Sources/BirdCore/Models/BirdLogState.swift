@@ -51,13 +51,35 @@ public struct BirdLogState: Codable, Hashable, Sendable {
     public func jsonData() throws -> Data {
         let encoder = JSONEncoder()
         encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
-        encoder.dateEncodingStrategy = .iso8601
+        // The default ISO-8601 strategy writes whole seconds, which makes a
+        // JSON round-trip change Date values created with Date(). Use Date's
+        // native reference interval instead of Unix epoch seconds: converting
+        // to and from the latter can itself lose floating-point precision.
+        encoder.dateEncodingStrategy = .custom { date, encoder in
+            var container = encoder.singleValueContainer()
+            try container.encode(date.timeIntervalSinceReferenceDate)
+        }
         return try encoder.encode(self)
     }
 
     public static func from(jsonData: Data) throws -> BirdLogState {
         let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .iso8601
+        decoder.dateDecodingStrategy = .custom { decoder in
+            let container = try decoder.singleValueContainer()
+            if let interval = try? container.decode(TimeInterval.self) {
+                return Date(timeIntervalSinceReferenceDate: interval)
+            }
+
+            // Keep states written before the precision fix readable.
+            let string = try container.decode(String.self)
+            guard let date = ISO8601DateFormatter().date(from: string) else {
+                throw DecodingError.dataCorruptedError(
+                    in: container,
+                    debugDescription: "Expected a reference-date interval or ISO-8601 date string."
+                )
+            }
+            return date
+        }
         return try decoder.decode(BirdLogState.self, from: jsonData)
     }
 }
