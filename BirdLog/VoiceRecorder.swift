@@ -18,6 +18,15 @@ final class VoiceRecorder {
 
     func start() async throws {
         guard await AVAudioApplication.requestRecordPermission() else { throw VoiceRecorderError.permissionDenied }
+
+        // AVAudioRecorder does not reliably activate the input route itself,
+        // especially in Simulator/Device Hub. Configure the route explicitly
+        // before constructing the recorder so the selected Mac microphone is
+        // actually attached to this 16 kHz recording.
+        let session = AVAudioSession.sharedInstance()
+        try session.setCategory(.record, mode: .measurement, options: [])
+        try session.setActive(true, options: .notifyOthersOnDeactivation)
+
         let url = FileManager.default.temporaryDirectory.appending(path: "birdlog-\(UUID().uuidString).wav")
         let settings: [String: Any] = [
             AVFormatIDKey: kAudioFormatLinearPCM, AVSampleRateKey: 16_000,
@@ -34,6 +43,7 @@ final class VoiceRecorder {
     func stop() -> Result<URL, Error> {
         guard let recorder, let fileURL else { return .failure(VoiceRecorderError.notRecording) }
         recorder.stop()
+        try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
         self.recorder = nil
         self.fileURL = nil
         return .success(fileURL)
