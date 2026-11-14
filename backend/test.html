@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BirdLog test client</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.5 system-ui, sans-serif; max-width: 860px; margin: 0 auto; padding: 20px; }
+  textarea { width: 100%; height: 80px; font: inherit; padding: 10px; border-radius: 8px; }
+  button { font: inherit; padding: 8px 18px; border-radius: 8px; border: none;
+           background: #2f6b3a; color: #fff; cursor: pointer; }
+  button:disabled { opacity: .5; }
+  #status { font-size: 13px; opacity: .8; margin: 8px 0; }
+  #gps { font-size: 12px; opacity: .7; margin-left: 10px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 14px; }
+  th, td { text-align: left; padding: 4px 8px; border-bottom: 1px solid #8884; font-size: 14px; }
+  .unmatched td:first-child { color: #c0392b; }
+  #mic.recording { background: #b0392b; }
+</style>
+</head>
+<body>
+<h1>BirdLog — test client</h1>
+<div id="status">checking backend…</div>
+<textarea id="text"
+  placeholder='Voice: click 🎤, speak (e.g. "Start checklist at Beebe Lake"), click ⏹. Typed input also works.'></textarea>
+<div>
+  <button id="mic">🎤 Record</button>
+  <button id="send">Send text</button>
+  <button id="gpsBtn" style="background:#555">Toggle GPS</button>
+  <span id="gps"></span>
+</div>
+<table id="out"><thead><tr>
+  <th>Species</th><th>Code</th><th>Count</th><th>Location</th><th>Notes</th><th>Match</th><th>Parser</th>
+</tr></thead><tbody></tbody></table>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const API = location.origin.includes("8000") ? "" : "http://localhost:8000"; // opened as file -> 8000
+
+// GPS toggle: tries real browser geolocation, falls back to a mock point.
+window.__birdlogLat = null; window.__birdlogLon = null;
+$("gpsBtn").onclick = async () => {
+  if (window.__birdlogLat !== null) { window.__birdlogLat = null; $("gps").textContent = ""; return; }
+  $("gps").textContent = "locating…";
+  try {
+    const pos = await new Promise((res, rej) =>
+      navigator.geolocation.getCurrentPosition(res, rej, {enableHighAccuracy: true}));
+    window.__birdlogLat = pos.coords.latitude; window.__birdlogLon = pos.coords.longitude;
+    $("gps").textContent = `GPS: ${window.__birdlogLat.toFixed(5)}, ${window.__birdlogLon.toFixed(5)}`;
+  } catch {
+    window.__birdlogLat = 42.4534; window.__birdlogLon = -76.4803;
+    $("gps").textContent = "GPS denied — using mock 42.4534, -76.4803 (Beebe Lake)";
+  }
+};
+
+async function health() {
+  try {
+    const r = await (await fetch(`${API}/health`)).json();
+    const active = r.active_checklist
+      ? ` · CHECKLIST OPEN: ${r.active_checklist.location_name} (${r.active_checklist.rows} rows)`
+      : "";
+    $("status").textContent =
+      `backend ok · bonsai ${r.bonsai_available ? "connected" : "NOT running (fallback parser)"}` +
+      ` · ${r.regional_species} NY / ${r.worldwide_species} worldwide species${active}`;
+  } catch {
+    $("status").textContent = "backend not reachable — is uvicorn running on :8000?";
+  }
+}
+
+function renderResponse(d) {
+  if (d.transcript) { $("text").value = d.transcript; }
+  if (!d.commands?.length && !d.rows?.length) {
+    $("status").textContent =
+      `no sightings parsed — heard: ${d.transcript || "(nothing)"}`;
+  }
+  if (d.commands?.length) {
+    let msg = d.commands.join(", ").toUpperCase();
+    if (d.checklist)
+      msg += ` — checklist OPEN: ${d.checklist.location_name} · ${d.checklist.date} ${d.checklist.start_time} · ${d.checklist.protocol} · ${d.checklist.rows} row(s)`;
+    else
+      msg += " — checklist CLOSED";
+    if (d.checklist_finalized)
+      msg += ` — exported ${d.checklist_finalized.export}`;
+    $("status").textContent = msg;
+  }
+  for (const row of d.rows) {
+    $("out").tBodies[0].insertAdjacentHTML("beforeend", `<tr class="${row.match_scope}">
+      <td>${row.primary_com_name}</td><td>${row.species_code}</td>
+      <td>${row.count ?? "X"}</td><td>${row.location ?? "–"}</td><td>${row.notes ?? "–"}</td>
+      <td>${row.match_confidence} (${row.match_scope})</td><td>${d.parser}</td></tr>`);
+  }
+}
+
+// ---------------- typed input ----------------
+$("send").onclick = async () => {
+  const transcript = $("text").value.trim();
+  if (!transcript) return;
+  $("send").disabled = true;
+  try {
+    const r = await (await fetch(`${API}/sightings`, {
+      method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({transcript,
+        latitude: window.__birdlogLat, longitude: window.__birdlogLon}),
+    })).json();
+    renderResponse(r);
+    $("text").value = "";
+  } finally { $("send").disabled = false; }
+};
+
+// ---------------- voice input ----------------
+// Records mic audio, resamples to 16 kHz mono in the browser, encodes WAV,
+// and POSTs it to /voice, which runs Argmax WhisperKit (Swift) on-device.
+let mediaRecorder = null, chunks = [];
+
+$("mic").onclick = async () => {
+  if (!navigator.mediaDevices?.getUserMedia) {
+    $("status").textContent =
+      "⚠ microphone API unavailable in this browser/origin — open http://localhost:8000/test in Safari or Chrome";
+    return;
+  }
+  try {
+    if (!mediaRecorder) {
+      const stream = await navigator.mediaDevices.getUserMedia({audio: true});
+      mediaRecorder = new MediaRecorder(stream);
+      mediaRecorder.ondataavailable = (e) => chunks.push(e.data);
+      mediaRecorder.onstop = async () => {
+        stream.getTracks().forEach((t) => t.stop());
+        const blob = new Blob(chunks); chunks = [];
+        $("mic").textContent = "⏳ transcribing…"; $("mic").disabled = true;
+        try {
+          const wav = await blobToWav16k(blob);
+          const params = new URLSearchParams();
+          if (window.__birdlogLat !== null) {
+            params.set("latitude", window.__birdlogLat);
+            params.set("longitude", window.__birdlogLon);
+          }
+          const r = await (await fetch(`${API}/voice?${params}`, {
+            method: "POST", headers: {"Content-Type": "audio/wav"}, body: wav,
+          })).json();
+          renderResponse(r);
+        } catch (e) {
+          $("status").textContent = "voice error: " + e;
+        } finally {
+          $("mic").textContent = "🎤 Record"; $("mic").disabled = false;
+          mediaRecorder = null;   // allow the next click to start a fresh recording
+        }
+      };
+      mediaRecorder.start();
+      $("mic").textContent = "⏹ Stop & transcribe";
+      $("mic").classList.add("recording");
+      $("status").textContent = "🔴 recording — speak, then click Stop";
+    } else if (mediaRecorder.state === "recording") {
+      mediaRecorder.stop();
+      $("mic").classList.remove("recording");
+    } else {
+      // Stale recorder (stopped without cleanup) — reset for a fresh start.
+      mediaRecorder = null;
+      $("mic").classList.remove("recording");
+    }
+  } catch (e) {
+    // getUserMedia denied or unavailable: make it LOUD, not silent.
+    $("status").textContent =
+      `⚠ mic error: ${e.name || "Error"} — ${e.message || e}. Allow microphone ` +
+      "access for this browser, or open http://localhost:8000/test in Safari/Chrome.";
+    mediaRecorder = null;
+    $("mic").classList.remove("recording");
+  }
+};
+
+async function blobToWav16k(blob) {
+  const buf = await blob.arrayBuffer();
+  const ctx = new AudioContext();
+  const decoded = await ctx.decodeAudioData(buf);
+  await ctx.close();
+  const off = new OfflineAudioContext(1, Math.ceil(decoded.duration * 16000), 16000);
+  const src = off.createBufferSource();
+  src.buffer = decoded; src.connect(off.destination); src.start();
+  const rendered = await off.startRendering();
+  return encodeWav(rendered.getChannelData(0), 16000);
+}
+
+function encodeWav(samples, rate) {
+  const len = samples.length;
+  const buf = new ArrayBuffer(44 + len * 2);
+  const v = new DataView(buf);
+  const w = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+  w(0, "RIFF"); v.setUint32(4, 36 + len * 2, true); w(8, "WAVE"); w(12, "fmt ");
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true);
+  v.setUint16(34, 16, true); w(36, "data"); v.setUint32(40, len * 2, true);
+  let o = 44;
+  for (let i = 0; i < len; i++, o += 2) {
+    const s = Math.max(-1, Math.min(1, samples[i]));
+    v.setInt16(o, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+  }
+  return buf;
+}
+
+health();
+</script>
+</body>
+</html>

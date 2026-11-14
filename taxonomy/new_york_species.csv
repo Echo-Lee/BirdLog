@@ -1,0 +1,509 @@
+taxon_order,species_code,primary_com_name,sci_name,family,species_group
+243,bbwduc,Black-bellied Whistling-Duck,Dendrocygna autumnalis,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+249,fuwduc,Fulvous Whistling-Duck,Dendrocygna bicolor,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+268,snogoo,Snow Goose,Anser caerulescens,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+273,rosgoo,Ross's Goose,Anser rossii,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+288,gwfgoo,Greater White-fronted Goose,Anser albifrons,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+305,taibeg1,Taiga Bean-Goose,Anser fabalis,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+310,tunbeg1,Tundra Bean-Goose,Anser serrirostris,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+315,pifgoo,Pink-footed Goose,Anser brachyrhynchus,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+318,brant,Brant,Branta bernicla,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+326,bargoo,Barnacle Goose,Branta leucopsis,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+336,cacgoo1,Cackling Goose,Branta hutchinsii,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+347,cangoo,Canada Goose,Branta canadensis,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+382,mutswa,Mute Swan,Cygnus olor,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+388,truswa,Trumpeter Swan,Cygnus buccinator,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+390,tunswa,Tundra Swan,Cygnus columbianus,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+463,wooduc,Wood Duck,Aix sponsa,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+486,gargan,Garganey,Spatula querquedula,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+492,buwtea,Blue-winged Teal,Spatula discors,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+495,cintea,Cinnamon Teal,Spatula cyanoptera,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+509,norsho,Northern Shoveler,Spatula clypeata,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+513,gadwal,Gadwall,Mareca strepera,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+520,eurwig,Eurasian Wigeon,Mareca penelope,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+525,amewig,American Wigeon,Mareca americana,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+554,mallar3,Mallard,Anas platyrhynchos,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+581,ambduc,American Black Duck,Anas rubripes,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+606,norpin,Northern Pintail,Anas acuta,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+625,gnwtea,Green-winged Teal,Anas crecca,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+681,canvas,Canvasback,Aythya valisineria,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+682,redhea,Redhead,Aythya americana,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+685,compoc,Common Pochard,Aythya ferina,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+690,rinduc,Ring-necked Duck,Aythya collaris,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+705,tufduc,Tufted Duck,Aythya fuligula,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+713,gresca,Greater Scaup,Aythya marila,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+719,lessca,Lesser Scaup,Aythya affinis,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+730,labduc,Labrador Duck,Camptorhynchus labradorius,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+732,kineid,King Eider,Somateria spectabilis,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+734,comeid,Common Eider,Somateria mollissima,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+747,harduc,Harlequin Duck,Histrionicus histrionicus,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+748,sursco,Surf Scoter,Melanitta perspicillata,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+750,whwsco2,White-winged Scoter,Melanitta deglandi,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+757,blksco2,Black Scoter,Melanitta americana,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+762,lotduc,Long-tailed Duck,Clangula hyemalis,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+763,buffle,Bufflehead,Bucephala albeola,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+764,comgol,Common Goldeneye,Bucephala clangula,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+769,bargol,Barrow's Goldeneye,Bucephala islandica,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+773,smew,Smew,Mergellus albellus,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+775,hoomer,Hooded Merganser,Lophodytes cucullatus,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+783,commer,Common Merganser,Mergus merganser,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+791,rebmer,Red-breasted Merganser,Mergus serrator,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+799,rudduc,Ruddy Duck,Oxyura jamaicensis,"Anatidae (Ducks, Geese, and Waterfowl)",Waterfowl
+1048,norbob,Northern Bobwhite,Colinus virginianus,Odontophoridae (New World Quail),"Grouse, Quail, and Allies"
+1296,wiltur,Wild Turkey,Meleagris gallopavo,"Phasianidae (Pheasants, Grouse, and Allies)","Grouse, Quail, and Allies"
+1305,rufgro,Ruffed Grouse,Bonasa umbellus,"Phasianidae (Pheasants, Grouse, and Allies)","Grouse, Quail, and Allies"
+1359,grpchi,Greater Prairie-Chicken,Tympanuchus cupido,"Phasianidae (Pheasants, Grouse, and Allies)","Grouse, Quail, and Allies"
+1376,wilpta,Willow Ptarmigan,Lagopus lagopus,"Phasianidae (Pheasants, Grouse, and Allies)","Grouse, Quail, and Allies"
+1428,sprgro,Spruce Grouse,Canachites canadensis,"Phasianidae (Pheasants, Grouse, and Allies)","Grouse, Quail, and Allies"
+1472,grypar,Gray Partridge,Perdix perdix,"Phasianidae (Pheasants, Grouse, and Allies)","Grouse, Quail, and Allies"
+1499,rinphe1,Ring-necked Pheasant,Phasianus colchicus,"Phasianidae (Pheasants, Grouse, and Allies)","Grouse, Quail, and Allies"
+1875,rocpig,Rock Pigeon,Columba livia,Columbidae (Pigeons and Doves),Pigeons and Doves
+1990,batpig1,Band-tailed Pigeon,Patagioenas fasciata,Columbidae (Pigeons and Doves),Pigeons and Doves
+2027,paspig,Passenger Pigeon,Ectopistes migratorius,Columbidae (Pigeons and Doves),Pigeons and Doves
+2055,eucdov,Eurasian Collared-Dove,Streptopelia decaocto,Columbidae (Pigeons and Doves),Pigeons and Doves
+2266,incdov,Inca Dove,Columbina inca,Columbidae (Pigeons and Doves),Pigeons and Doves
+2267,cogdov,Common Ground Dove,Columbina passerina,Columbidae (Pigeons and Doves),Pigeons and Doves
+2415,whwdov,White-winged Dove,Zenaida asiatica,Columbidae (Pigeons and Doves),Pigeons and Doves
+2438,moudov,Mourning Dove,Zenaida macroura,Columbidae (Pigeons and Doves),Pigeons and Doves
+3267,yebcuc,Yellow-billed Cuckoo,Coccyzus americanus,Cuculidae (Cuckoos),Cuckoos
+3272,bkbcuc,Black-billed Cuckoo,Coccyzus erythropthalmus,Cuculidae (Cuckoos),Cuckoos
+3473,comcuc,Common Cuckoo,Cuculus canorus,Cuculidae (Cuckoos),Cuckoos
+3523,comnig,Common Nighthawk,Chordeiles minor,Caprimulgidae (Nightjars and Allies),Nightjars
+3629,chwwid,Chuck-will's-widow,Antrostomus carolinensis,Caprimulgidae (Nightjars and Allies),Nightjars
+3649,easwpw1,Eastern Whip-poor-will,Antrostomus vociferus,Caprimulgidae (Nightjars and Allies),Nightjars
+3931,chiswi,Chimney Swift,Chaetura pelagica,Apodidae (Swifts),Swifts
+4394,grnvie1,Mexican Violetear,Colibri thalassinus,Trochilidae (Hummingbirds),Hummingbirds
+4839,rthhum,Ruby-throated Hummingbird,Archilochus colubris,Trochilidae (Hummingbirds),Hummingbirds
+4851,annhum,Anna's Hummingbird,Calypte anna,Trochilidae (Hummingbirds),Hummingbirds
+4860,calhum,Calliope Hummingbird,Selasphorus calliope,Trochilidae (Hummingbirds),Hummingbirds
+4863,rufhum,Rufous Hummingbird,Selasphorus rufus,Trochilidae (Hummingbirds),Hummingbirds
+5310,kinrai4,King Rail,Rallus elegans,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5314,clarai11,Clapper Rail,Rallus crepitans,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5334,virrai,Virginia Rail,Rallus limicola,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5361,corcra,Corn Crake,Crex crex,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5493,sora,Sora,Porzana carolina,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5506,comgal1,Common Gallinule,Gallinula galeata,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5538,y00475,American Coot,Fulica americana,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5553,purgal2,Purple Gallinule,Porphyrio martinica,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5554,azugal1,Azure Gallinule,Porphyrio flavirostris,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5664,yelrai,Yellow Rail,Coturnicops noveboracensis,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5689,blkrai,Black Rail,Laterallus jamaicensis,"Rallidae (Rails, Gallinules, and Coots)","Rails, Gallinules, and Allies"
+5735,sancra,Sandhill Crane,Antigone canadensis,Gruidae (Cranes),Cranes
+5808,bknsti,Black-necked Stilt,Himantopus mexicanus,Recurvirostridae (Stilts and Avocets),Shorebirds
+5819,ameavo,American Avocet,Recurvirostra americana,Recurvirostridae (Stilts and Avocets),Shorebirds
+5838,ameoys,American Oystercatcher,Haematopus palliatus,Haematopodidae (Oystercatchers),Shorebirds
+5850,bkbplo,Black-bellied Plover,Pluvialis squatarola,Charadriidae (Plovers and Lapwings),Shorebirds
+5854,amgplo,American Golden-Plover,Pluvialis dominica,Charadriidae (Plovers and Lapwings),Shorebirds
+5855,pagplo,Pacific Golden-Plover,Pluvialis fulva,Charadriidae (Plovers and Lapwings),Shorebirds
+5866,killde,Killdeer,Charadrius vociferus,Charadriidae (Plovers and Lapwings),Shorebirds
+5870,corplo,Common Ringed Plover,Charadrius hiaticula,Charadriidae (Plovers and Lapwings),Shorebirds
+5873,semplo,Semipalmated Plover,Charadrius semipalmatus,Charadriidae (Plovers and Lapwings),Shorebirds
+5875,pipplo,Piping Plover,Charadrius melodus,Charadriidae (Plovers and Lapwings),Shorebirds
+5895,norlap,Northern Lapwing,Vanellus vanellus,Charadriidae (Plovers and Lapwings),Shorebirds
+5968,wilplo,Wilson's Plover,Anarhynchus wilsonia,Charadriidae (Plovers and Lapwings),Shorebirds
+5981,snoplo5,Snowy Plover,Anarhynchus nivosus,Charadriidae (Plovers and Lapwings),Shorebirds
+6050,uplsan,Upland Sandpiper,Bartramia longicauda,Scolopacidae (Sandpipers and Allies),Shorebirds
+6053,whimbr5,Eurasian Whimbrel,Numenius phaeopus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6061,eskcur,Eskimo Curlew,Numenius borealis,Scolopacidae (Sandpipers and Allies),Shorebirds
+6062,lobcur,Long-billed Curlew,Numenius americanus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6067,eurcur,Eurasian Curlew,Numenius arquata,Scolopacidae (Sandpipers and Allies),Shorebirds
+6074,batgod,Bar-tailed Godwit,Limosa lapponica,Scolopacidae (Sandpipers and Allies),Shorebirds
+6083,bktgod,Black-tailed Godwit,Limosa limosa,Scolopacidae (Sandpipers and Allies),Shorebirds
+6089,hudgod,Hudsonian Godwit,Limosa haemastica,Scolopacidae (Sandpipers and Allies),Shorebirds
+6092,margod,Marbled Godwit,Limosa fedoa,Scolopacidae (Sandpipers and Allies),Shorebirds
+6098,shbdow,Short-billed Dowitcher,Limnodromus griseus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6102,lobdow,Long-billed Dowitcher,Limnodromus scolopaceus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6105,amewoo,American Woodcock,Scolopax minor,Scolopacidae (Sandpipers and Allies),Shorebirds
+6145,wilsni1,Wilson's Snipe,Gallinago delicata,Scolopacidae (Sandpipers and Allies),Shorebirds
+6160,wilpha,Wilson's Phalarope,Phalaropus tricolor,Scolopacidae (Sandpipers and Allies),Shorebirds
+6161,redpha1,Red Phalarope,Phalaropus fulicarius,Scolopacidae (Sandpipers and Allies),Shorebirds
+6162,renpha,Red-necked Phalarope,Phalaropus lobatus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6167,sposan,Spotted Sandpiper,Actitis macularius,Scolopacidae (Sandpipers and Allies),Shorebirds
+6170,solsan,Solitary Sandpiper,Tringa solitaria,Scolopacidae (Sandpipers and Allies),Shorebirds
+6178,woosan,Wood Sandpiper,Tringa glareola,Scolopacidae (Sandpipers and Allies),Shorebirds
+6186,lesyel,Lesser Yellowlegs,Tringa flavipes,Scolopacidae (Sandpipers and Allies),Shorebirds
+6188,willet2,Saltmarsh Willet,Tringa semipalmata,Scolopacidae (Sandpipers and Allies),Shorebirds
+6191,spored,Spotted Redshank,Tringa erythropus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6193,comgre,Common Greenshank,Tringa nebularia,Scolopacidae (Sandpipers and Allies),Shorebirds
+6195,greyel,Greater Yellowlegs,Tringa melanoleuca,Scolopacidae (Sandpipers and Allies),Shorebirds
+6202,rudtur,Ruddy Turnstone,Arenaria interpres,Scolopacidae (Sandpipers and Allies),Shorebirds
+6207,redkno,Red Knot,Calidris canutus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6218,ruff,Ruff,Calidris pugnax,Scolopacidae (Sandpipers and Allies),Shorebirds
+6219,brbsan,Broad-billed Sandpiper,Calidris falcinellus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6222,shtsan,Sharp-tailed Sandpiper,Calidris acuminata,Scolopacidae (Sandpipers and Allies),Shorebirds
+6223,cursan,Curlew Sandpiper,Calidris ferruginea,Scolopacidae (Sandpipers and Allies),Shorebirds
+6224,stisan,Stilt Sandpiper,Calidris himantopus,Scolopacidae (Sandpipers and Allies),Shorebirds
+6227,rensti,Red-necked Stint,Calidris ruficollis,Scolopacidae (Sandpipers and Allies),Shorebirds
+6229,bubsan,Buff-breasted Sandpiper,Calidris subruficollis,Scolopacidae (Sandpipers and Allies),Shorebirds
+6230,sander,Sanderling,Calidris alba,Scolopacidae (Sandpipers and Allies),Shorebirds
+6233,dunlin,Dunlin,Calidris alpina,Scolopacidae (Sandpipers and Allies),Shorebirds
+6248,pursan,Purple Sandpiper,Calidris maritima,Scolopacidae (Sandpipers and Allies),Shorebirds
+6258,baisan,Baird's Sandpiper,Calidris bairdii,Scolopacidae (Sandpipers and Allies),Shorebirds
+6260,litsti,Little Stint,Calidris minuta,Scolopacidae (Sandpipers and Allies),Shorebirds
+6262,whrsan,White-rumped Sandpiper,Calidris fuscicollis,Scolopacidae (Sandpipers and Allies),Shorebirds
+6267,leasan,Least Sandpiper,Calidris minutilla,Scolopacidae (Sandpipers and Allies),Shorebirds
+6268,pecsan,Pectoral Sandpiper,Calidris melanotos,Scolopacidae (Sandpipers and Allies),Shorebirds
+6272,wessan,Western Sandpiper,Calidris mauri,Scolopacidae (Sandpipers and Allies),Shorebirds
+6273,semsan,Semipalmated Sandpiper,Calidris pusilla,Scolopacidae (Sandpipers and Allies),Shorebirds
+6399,lotjae,Long-tailed Jaeger,Stercorarius longicaudus,Stercorariidae (Skuas and Jaegers),Skuas and Jaegers
+6402,parjae,Parasitic Jaeger,Stercorarius parasiticus,Stercorariidae (Skuas and Jaegers),Skuas and Jaegers
+6404,pomjae,Pomarine Jaeger,Stercorarius pomarinus,Stercorariidae (Skuas and Jaegers),Skuas and Jaegers
+6407,gresku1,Great Skua,Stercorarius skua,Stercorariidae (Skuas and Jaegers),Skuas and Jaegers
+6413,sopsku1,South Polar Skua,Stercorarius maccormicki,Stercorariidae (Skuas and Jaegers),Skuas and Jaegers
+6421,atlpuf,Atlantic Puffin,Fratercula arctica,"Alcidae (Auks, Murres, and Puffins)",Alcids
+6435,lobmur,Long-billed Murrelet,Brachyramphus perdix,"Alcidae (Auks, Murres, and Puffins)",Alcids
+6438,blkgui,Black Guillemot,Cepphus grylle,"Alcidae (Auks, Murres, and Puffins)",Alcids
+6454,razorb,Razorbill,Alca torda,"Alcidae (Auks, Murres, and Puffins)",Alcids
+6458,doveki,Dovekie,Alle alle,"Alcidae (Auks, Murres, and Puffins)",Alcids
+6461,thbmur,Thick-billed Murre,Uria lomvia,"Alcidae (Auks, Murres, and Puffins)",Alcids
+6466,commur,Common Murre,Uria aalge,"Alcidae (Auks, Murres, and Puffins)",Alcids
+6475,ancmur,Ancient Murrelet,Synthliboramphus antiquus,"Alcidae (Auks, Murres, and Puffins)",Alcids
+6489,litgul,Little Gull,Hydrocoloeus minutus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6490,rosgul,Ross's Gull,Rhodostethia rosea,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6491,bklkit,Black-legged Kittiwake,Rissa tridactyla,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6496,ivogul,Ivory Gull,Pagophila eburnea,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6497,sabgul,Sabine's Gull,Xema sabini,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6504,bongul,Bonaparte's Gull,Chroicocephalus philadelphia,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6516,bkhgul,Black-headed Gull,Chroicocephalus ridibundus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6523,grhgul,Gray-hooded Gull,Chroicocephalus cirrocephalus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6533,laugul,Laughing Gull,Leucophaeus atricilla,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6537,fragul,Franklin's Gull,Leucophaeus pipixcan,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6553,bktgul,Black-tailed Gull,Larus crassirostris,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6564,ribgul,Ring-billed Gull,Larus delawarensis,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6571,wesgul,Western Gull,Larus occidentalis,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6582,amhgul1,American Herring Gull,Larus smithsonianus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6608,gbbgul,Great Black-backed Gull,Larus marinus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6612,glagul,Glaucous Gull,Larus hyperboreus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6622,lbbgul,Lesser Black-backed Gull,Larus fuscus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6639,calgul,California Gull,Larus californicus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6650,slbgul,Slaty-backed Gull,Larus schistisagus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6654,y00478,Iceland Gull,Larus glaucoides,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6670,blkski,Black Skimmer,Rynchops niger,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6715,sooter1,Sooty Tern,Onychoprion fuscatus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6723,briter1,Bridled Tern,Onychoprion anaethetus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6749,leater1,Least Tern,Sternula antillarum,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6760,gubter2,Gull-billed Tern,Gelochelidon nilotica,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6768,caster1,Caspian Tern,Hydroprogne caspia,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6775,blkter,Black Tern,Chlidonias niger,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6778,whwter,White-winged Tern,Chlidonias leucopterus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6781,forter,Forster's Tern,Sterna forsteri,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6783,arcter,Arctic Tern,Sterna paradisaea,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6798,comter,Common Tern,Sterna hirundo,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6811,roster,Roseate Tern,Sterna dougallii,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6825,santer1,Sandwich Tern,Thalasseus sandvicensis,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6831,eleter1,Elegant Tern,Thalasseus elegans,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6840,royter1,Royal Tern,Thalasseus maximus,"Laridae (Gulls, Terns, and Skimmers)","Gulls, Terns, and Skimmers"
+6858,grefla2,American Flamingo,Phoenicopterus ruber,Phoenicopteridae (Flamingos),Flamingos
+6907,pibgre,Pied-billed Grebe,Podilymbus podiceps,Podicipedidae (Grebes),Grebes
+6918,horgre,Horned Grebe,Podiceps auritus,Podicipedidae (Grebes),Grebes
+6921,rengre,Red-necked Grebe,Podiceps grisegena,Podicipedidae (Grebes),Grebes
+6928,eargre,Eared Grebe,Podiceps nigricollis,Podicipedidae (Grebes),Grebes
+6940,wesgre,Western Grebe,Aechmophorus occidentalis,Podicipedidae (Grebes),Grebes
+6943,clagre,Clark's Grebe,Aechmophorus clarkii,Podicipedidae (Grebes),Grebes
+6960,whttro,White-tailed Tropicbird,Phaethon lepturus,Phaethontidae (Tropicbirds),Tropicbirds
+6968,rebtro,Red-billed Tropicbird,Phaethon aethereus,Phaethontidae (Tropicbirds),Tropicbirds
+6981,retloo,Red-throated Loon,Gavia stellata,Gaviidae (Loons),Loons
+6985,pacloo,Pacific Loon,Gavia pacifica,Gaviidae (Loons),Loons
+6987,comloo,Common Loon,Gavia immer,Gaviidae (Loons),Loons
+6989,yebloo,Yellow-billed Loon,Gavia adamsii,Gaviidae (Loons),Loons
+7048,yenalb2,Atlantic Yellow-nosed Albatross,Thalassarche chlororhynchos,Diomedeidae (Albatrosses),Albatrosses
+7068,wispet,Wilson's Storm-Petrel,Oceanites oceanicus,Oceanitidae (Southern Storm-Petrels),Storm-Petrels
+7080,wfspet,White-faced Storm-Petrel,Pelagodroma marina,Oceanitidae (Southern Storm-Petrels),Storm-Petrels
+7108,lcspet,Leach's Storm-Petrel,Hydrobates leucorhous,Hydrobatidae (Northern Storm-Petrels),Storm-Petrels
+7119,barpet,Band-rumped Storm-Petrel,Hydrobates castro,Hydrobatidae (Northern Storm-Petrels),Storm-Petrels
+7145,norful,Northern Fulmar,Fulmarus glacialis,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7167,tripet1,Trindade Petrel,Pterodroma arminjoniana,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7174,feapet3,Cape Verde Petrel,Pterodroma feae,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7183,motpet,Mottled Petrel,Pterodroma inexpectata,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7185,bkcpet,Black-capped Petrel,Pterodroma hasitata,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7256,scoshe1,Scopoli's Shearwater,Calonectris diomedea,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7262,greshe,Great Shearwater,Ardenna gravis,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7268,sooshe,Sooty Shearwater,Ardenna grisea,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7275,manshe,Manx Shearwater,Puffinus puffinus,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7302,audshe,Sargasso Shearwater,Puffinus lherminieri,Procellariidae (Shearwaters and Petrels),"Petrels, Shearwaters, and Diving-Petrels"
+7361,woosto,Wood Stork,Mycteria americana,Ciconiidae (Storks),Storks
+7370,magfri,Magnificent Frigatebird,Fregata magnificens,Fregatidae (Frigatebirds),"Frigatebirds, Boobies, and Gannets"
+7388,norgan,Northern Gannet,Morus bassanus,Sulidae (Boobies and Gannets),"Frigatebirds, Boobies, and Gannets"
+7393,refboo,Red-footed Booby,Sula sula,Sulidae (Boobies and Gannets),"Frigatebirds, Boobies, and Gannets"
+7397,brnboo,Brown Booby,Sula leucogaster,Sulidae (Boobies and Gannets),"Frigatebirds, Boobies, and Gannets"
+7422,anhing,Anhinga,Anhinga anhinga,Anhingidae (Anhingas),Cormorants and Anhingas
+7452,grecor,Great Cormorant,Phalacrocorax carbo,Phalacrocoracidae (Cormorants and Shags),Cormorants and Anhingas
+7480,doccor,Double-crested Cormorant,Nannopterum auritum,Phalacrocoracidae (Cormorants and Shags),Cormorants and Anhingas
+7487,neocor,Neotropic Cormorant,Nannopterum brasilianum,Phalacrocoracidae (Cormorants and Shags),Cormorants and Anhingas
+7518,whiibi,White Ibis,Eudocimus albus,Threskiornithidae (Ibises and Spoonbills),"Herons, Ibis, and Allies"
+7523,gloibi,Glossy Ibis,Plegadis falcinellus,Threskiornithidae (Ibises and Spoonbills),"Herons, Ibis, and Allies"
+7524,whfibi,White-faced Ibis,Plegadis chihi,Threskiornithidae (Ibises and Spoonbills),"Herons, Ibis, and Allies"
+7591,rosspo1,Roseate Spoonbill,Platalea ajaja,Threskiornithidae (Ibises and Spoonbills),"Herons, Ibis, and Allies"
+7618,amebit,American Bittern,Botaurus lentiginosus,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7623,leabit,Least Bittern,Botaurus exilis,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7649,ycnher,Yellow-crowned Night Heron,Nyctanassa violacea,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7658,bcnher,Black-crowned Night Heron,Nycticorax nycticorax,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7687,libher,Little Blue Heron,Egretta caerulea,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7688,triher,Tricolored Heron,Egretta tricolor,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7692,redegr,Reddish Egret,Egretta rufescens,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7703,snoegr,Snowy Egret,Egretta thula,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7708,litegr,Little Egret,Egretta garzetta,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7713,werher,Western Reef-Heron,Egretta gularis,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7762,grnher,Green Heron,Butorides virescens,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7782,categr1,Western Cattle-Egret,Ardea ibis,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7787,greegr,Great Egret,Ardea alba,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7811,grbher3,Great Blue Heron,Ardea herodias,"Ardeidae (Herons, Egrets, and Bitterns)","Herons, Ibis, and Allies"
+7849,amwpel,American White Pelican,Pelecanus erythrorhynchos,Pelecanidae (Pelicans),Pelicans
+7850,brnpel,Brown Pelican,Pelecanus occidentalis,Pelecanidae (Pelicans),Pelicans
+7869,blkvul,Black Vulture,Coragyps atratus,Cathartidae (New World Vultures),"Vultures, Hawks, and Allies"
+7873,turvul,Turkey Vulture,Cathartes aura,Cathartidae (New World Vultures),"Vultures, Hawks, and Allies"
+7890,osprey,Osprey,Pandion haliaetus,Pandionidae (Osprey),"Vultures, Hawks, and Allies"
+7901,whtkit,White-tailed Kite,Elanus leucurus,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+7981,swtkit,Swallow-tailed Kite,Elanoides forficatus,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8124,goleag,Golden Eagle,Aquila chrysaetos,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8316,shshaw,Sharp-shinned Hawk,Accipiter striatus,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8337,coohaw,Cooper's Hawk,Astur cooperii,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8351,norgos,American Goshawk,Astur atricapillus,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8383,norhar2,Northern Harrier,Circus hudsonius,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8429,baleag,Bald Eagle,Haliaeetus leucocephalus,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8450,miskit,Mississippi Kite,Ictinia mississippiensis,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8492,roahaw,Roadside Hawk,Rupornis magnirostris,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8541,brwhaw,Broad-winged Hawk,Buteo platypterus,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8549,reshaw,Red-shouldered Hawk,Buteo lineatus,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8567,swahaw,Swainson's Hawk,Buteo swainsoni,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8569,rethaw,Red-tailed Hawk,Buteo jamaicensis,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8591,rolhaw,Rough-legged Hawk,Buteo lagopus,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8598,ferhaw,Ferruginous Hawk,Buteo regalis,"Accipitridae (Hawks, Eagles, and Kites)","Vultures, Hawks, and Allies"
+8697,brnowl,American Barn Owl,Tyto furcata,Tytonidae (Barn-Owls),Owls
+8930,easowl1,Eastern Screech-Owl,Megascops asio,Strigidae (Owls),Owls
+8974,snoowl1,Snowy Owl,Bubo scandiacus,Strigidae (Owls),Owls
+8975,grhowl,Great Horned Owl,Bubo virginianus,Strigidae (Owls),Owls
+9062,nohowl,Northern Hawk Owl,Surnia ulula,Strigidae (Owls),Owls
+9196,burowl,Burrowing Owl,Athene cunicularia,Strigidae (Owls),Owls
+9282,brdowl,Barred Owl,Strix varia,Strigidae (Owls),Owls
+9306,grgowl,Great Gray Owl,Strix nebulosa,Strigidae (Owls),Owls
+9316,loeowl,Long-eared Owl,Asio otus,Strigidae (Owls),Owls
+9339,sheowl,Short-eared Owl,Asio flammeus,Strigidae (Owls),Owls
+9359,borowl,Boreal Owl,Aegolius funereus,Strigidae (Owls),Owls
+9367,nswowl,Northern Saw-whet Owl,Aegolius acadicus,Strigidae (Owls),Owls
+10378,belkin1,Belted Kingfisher,Megaceryle alcyon,Alcedinidae (Kingfishers),Kingfishers
+11194,wilsap,Williamson's Sapsucker,Sphyrapicus thyroideus,Picidae (Woodpeckers),Woodpeckers
+11197,yebsap,Yellow-bellied Sapsucker,Sphyrapicus varius,Picidae (Woodpeckers),Woodpeckers
+11213,lewwoo,Lewis's Woodpecker,Melanerpes lewis,Picidae (Woodpeckers),Woodpeckers
+11216,rehwoo,Red-headed Woodpecker,Melanerpes erythrocephalus,Picidae (Woodpeckers),Woodpeckers
+11270,rebwoo,Red-bellied Woodpecker,Melanerpes carolinus,Picidae (Woodpeckers),Woodpeckers
+11290,attwoo1,American Three-toed Woodpecker,Picoides dorsalis,Picidae (Woodpeckers),Woodpeckers
+11294,bkbwoo,Black-backed Woodpecker,Picoides arcticus,Picidae (Woodpeckers),Woodpeckers
+11477,dowwoo,Downy Woodpecker,Dryobates pubescens,Picidae (Woodpeckers),Woodpeckers
+11504,haiwoo,Hairy Woodpecker,Leuconotopicus villosus,Picidae (Woodpeckers),Woodpeckers
+11840,pilwoo,Pileated Woodpecker,Dryocopus pileatus,Picidae (Woodpeckers),Woodpeckers
+11980,norfli,Northern Flicker,Colaptes auratus,Picidae (Woodpeckers),Woodpeckers
+12042,y00678,Crested Caracara,Caracara plancus,Falconidae (Falcons and Caracaras),Falcons and Caracaras
+12108,amekes,American Kestrel,Falco sparverius,Falconidae (Falcons and Caracaras),Falcons and Caracaras
+12142,merlin,Merlin,Falco columbarius,Falconidae (Falcons and Caracaras),Falcons and Caracaras
+12153,eurhob,Eurasian Hobby,Falco subbuteo,Falconidae (Falcons and Caracaras),Falcons and Caracaras
+12193,gyrfal,Gyrfalcon,Falco rusticolus,Falconidae (Falcons and Caracaras),Falcons and Caracaras
+12194,perfal,Peregrine Falcon,Falco peregrinus,Falconidae (Falcons and Caracaras),Falcons and Caracaras
+12902,monpar,Monk Parakeet,Myiopsitta monachus,Psittacidae (New World and African Parrots),"Parrots, Parakeets, and Allies"
+13209,carpar,Carolina Parakeet,Conuropsis carolinensis,Psittacidae (New World and African Parrots),"Parrots, Parakeets, and Allies"
+16985,olsfly,Olive-sided Flycatcher,Contopus cooperi,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17019,eawpew,Eastern Wood-Pewee,Contopus virens,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17044,yebfly,Yellow-bellied Flycatcher,Empidonax flaviventris,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17045,acafly,Acadian Flycatcher,Empidonax virescens,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17046,aldfly,Alder Flycatcher,Empidonax alnorum,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17047,wilfly,Willow Flycatcher,Empidonax traillii,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17057,leafly,Least Flycatcher,Empidonax minimus,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17058,hamfly,Hammond's Flycatcher,Empidonax hammondii,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17069,wesfly,Western Flycatcher,Empidonax difficilis,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17101,easpho,Eastern Phoebe,Sayornis phoebe,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17104,saypho,Say's Phoebe,Sayornis saya,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17123,verfly,Vermilion Flycatcher,Pyrocephalus rubinus,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17417,astfly,Ash-throated Flycatcher,Myiarchus cinerascens,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17428,grcfly,Great Crested Flycatcher,Myiarchus crinitus,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17546,trokin,Tropical Kingbird,Tyrannus melancholicus,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17553,coukin,Couch's Kingbird,Tyrannus couchii,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17555,caskin,Cassin's Kingbird,Tyrannus vociferans,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17561,weskin,Western Kingbird,Tyrannus verticalis,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17566,easkin,Eastern Kingbird,Tyrannus tyrannus,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17568,grykin,Gray Kingbird,Tyrannus dominicensis,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17583,sctfly,Scissor-tailed Flycatcher,Tyrannus forficatus,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+17588,fotfly,Fork-tailed Flycatcher,Tyrannus savana,Tyrannidae (Tyrant Flycatchers),"Tyrant Flycatchers: Pewees, Kingbirds, and Allies"
+19261,whevir,White-eyed Vireo,Vireo griseus,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",Vireos
+19293,belvir,Bell's Vireo,Vireo bellii,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",Vireos
+19316,yetvir,Yellow-throated Vireo,Vireo flavifrons,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",Vireos
+19319,casvir,Cassin's Vireo,Vireo cassinii,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",Vireos
+19322,buhvir,Blue-headed Vireo,Vireo solitarius,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",Vireos
+19340,phivir,Philadelphia Vireo,Vireo philadelphicus,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",Vireos
+19341,eawvir1,Eastern Warbling Vireo,Vireo gilvus,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",Vireos
+19363,reevir1,Red-eyed Vireo,Vireo olivaceus,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",Vireos
+21189,logshr,Loggerhead Shrike,Lanius ludovicianus,Laniidae (Shrikes),Shrikes
+21201,norshr4,Northern Shrike,Lanius borealis,Laniidae (Shrikes),Shrikes
+21280,gryjay,Canada Jay,Perisoreus canadensis,"Corvidae (Crows, Jays, and Magpies)","Jays, Magpies, Crows, and Ravens"
+21395,blujay,Blue Jay,Cyanocitta cristata,"Corvidae (Crows, Jays, and Magpies)","Jays, Magpies, Crows, and Ravens"
+21574,bkbmag1,Black-billed Magpie,Pica hudsonia,"Corvidae (Crows, Jays, and Magpies)","Jays, Magpies, Crows, and Ravens"
+21656,amecro,American Crow,Corvus brachyrhynchos,"Corvidae (Crows, Jays, and Magpies)","Jays, Magpies, Crows, and Ravens"
+21669,fiscro,Fish Crow,Corvus ossifragus,"Corvidae (Crows, Jays, and Magpies)","Jays, Magpies, Crows, and Ravens"
+21721,comrav,Common Raven,Corvus corax,"Corvidae (Crows, Jays, and Magpies)","Jays, Magpies, Crows, and Ravens"
+22164,bkcchi,Black-capped Chickadee,Poecile atricapillus,"Paridae (Tits, Chickadees, and Titmice)","Tits, Chickadees, and Titmice"
+22198,borchi2,Boreal Chickadee,Poecile hudsonicus,"Paridae (Tits, Chickadees, and Titmice)","Tits, Chickadees, and Titmice"
+22261,tuftit,Tufted Titmouse,Baeolophus bicolor,"Paridae (Tits, Chickadees, and Titmice)","Tits, Chickadees, and Titmice"
+22717,skylar,Eurasian Skylark,Alauda arvensis,Alaudidae (Larks),Larks
+22812,horlar,Horned Lark,Eremophila alpestris,Alaudidae (Larks),Larks
+24156,banswa,Bank Swallow,Riparia riparia,Hirundinidae (Swallows),Martins and Swallows
+24169,treswa,Tree Swallow,Tachycineta bicolor,Hirundinidae (Swallows),Martins and Swallows
+24179,vigswa,Violet-green Swallow,Tachycineta thalassina,Hirundinidae (Swallows),Martins and Swallows
+24186,purmar,Purple Martin,Progne subis,Hirundinidae (Swallows),Martins and Swallows
+24198,gybmar,Gray-breasted Martin,Progne chalybea,Hirundinidae (Swallows),Martins and Swallows
+24211,nrwswa,Northern Rough-winged Swallow,Stelgidopteryx serripennis,Hirundinidae (Swallows),Martins and Swallows
+24292,barswa,Barn Swallow,Hirundo rustica,Hirundinidae (Swallows),Martins and Swallows
+24387,cliswa,Cliff Swallow,Petrochelidon pyrrhonota,Hirundinidae (Swallows),Martins and Swallows
+24395,cavswa,Cave Swallow,Petrochelidon fulva,Hirundinidae (Swallows),Martins and Swallows
+25050,arcwar1,Arctic Warbler,Phylloscopus borealis,Phylloscopidae (Leaf Warblers),Leaf Warblers
+26988,ruckin,Ruby-crowned Kinglet,Corthylio calendula,Regulidae (Kinglets),Kinglets
+26992,gockin,Golden-crowned Kinglet,Regulus satrapa,Regulidae (Kinglets),Kinglets
+27033,whbnut,White-breasted Nuthatch,Sitta carolinensis,Sittidae (Nuthatches),Nuthatches
+27078,bnhnut,Brown-headed Nuthatch,Sitta pusilla,Sittidae (Nuthatches),Nuthatches
+27083,rebnut,Red-breasted Nuthatch,Sitta canadensis,Sittidae (Nuthatches),Nuthatches
+27175,brncre,Brown Creeper,Certhia americana,Certhiidae (Treecreepers),Treecreepers
+27278,buggna,Blue-gray Gnatcatcher,Polioptila caerulea,Polioptilidae (Gnatcatchers),Gnatcatchers
+27305,rocwre,Rock Wren,Salpinctes obsoletus,Troglodytidae (Wrens),Wrens
+27347,houwre,Northern House Wren,Troglodytes aedon,Troglodytidae (Wrens),Wrens
+27455,winwre3,Winter Wren,Nannus hiemalis,Troglodytidae (Wrens),Wrens
+27460,sedwre,Grass Wren,Cistothorus platensis,Troglodytidae (Wrens),Wrens
+27495,eamwre1,Eastern Marsh Wren,Cistothorus palustris,Troglodytidae (Wrens),Wrens
+27505,carwre,Carolina Wren,Thryothorus ludovicianus,Troglodytidae (Wrens),Wrens
+27519,bewwre,Bewick's Wren,Thryomanes bewickii,Troglodytidae (Wrens),Wrens
+27986,eursta,European Starling,Sturnus vulgaris,Sturnidae (Starlings),Starlings and Mynas
+28176,grycat,Gray Catbird,Dumetella carolinensis,Mimidae (Mockingbirds and Thrashers),"Catbirds, Mockingbirds, and Thrashers"
+28214,brnthr,Brown Thrasher,Toxostoma rufum,Mimidae (Mockingbirds and Thrashers),"Catbirds, Mockingbirds, and Thrashers"
+28247,sagthr,Sage Thrasher,Oreoscoptes montanus,Mimidae (Mockingbirds and Thrashers),"Catbirds, Mockingbirds, and Thrashers"
+28293,normoc,Northern Mockingbird,Mimus polyglottos,Mimidae (Mockingbirds and Thrashers),"Catbirds, Mockingbirds, and Thrashers"
+28305,easblu,Eastern Bluebird,Sialia sialis,Turdidae (Thrushes and Allies),Thrushes
+28323,moublu,Mountain Bluebird,Sialia currucoides,Turdidae (Thrushes and Allies),Thrushes
+28342,towsol,Townsend's Solitaire,Myadestes townsendi,Turdidae (Thrushes and Allies),Thrushes
+28427,varthr,Varied Thrush,Ixoreus naevius,Turdidae (Thrushes and Allies),Thrushes
+28491,veery,Veery,Catharus fuscescens,Turdidae (Thrushes and Allies),Thrushes
+28496,gycthr,Gray-cheeked Thrush,Catharus minimus,Turdidae (Thrushes and Allies),Thrushes
+28499,bicthr,Bicknell's Thrush,Catharus bicknelli,Turdidae (Thrushes and Allies),Thrushes
+28502,swathr,Swainson's Thrush,Catharus ustulatus,Turdidae (Thrushes and Allies),Thrushes
+28511,herthr,Hermit Thrush,Catharus guttatus,Turdidae (Thrushes and Allies),Thrushes
+28525,woothr,Wood Thrush,Hylocichla mustelina,Turdidae (Thrushes and Allies),Thrushes
+28675,redwin,Redwing,Turdus iliacus,Turdidae (Thrushes and Allies),Thrushes
+28773,fieldf,Fieldfare,Turdus pilaris,Turdidae (Thrushes and Allies),Thrushes
+28813,amerob,American Robin,Turdus migratorius,Turdidae (Thrushes and Allies),Thrushes
+30004,norwhe,Northern Wheatear,Oenanthe oenanthe,Muscicapidae (Old World Flycatchers),Old World Flycatchers
+30106,bohwax,Bohemian Waxwing,Bombycilla garrulus,Bombycillidae (Waxwings),Waxwings
+30109,cedwax,Cedar Waxwing,Bombycilla cedrorum,Bombycillidae (Waxwings),Waxwings
+31772,houspa,House Sparrow,Passer domesticus,Passeridae (Old World Sparrows),Old World Sparrows
+32122,amepip,American Pipit,Anthus rubescens,Motacillidae (Wagtails and Pipits),Wagtails and Pipits
+32214,brambl,Brambling,Fringilla montifringilla,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32333,evegro,Evening Grosbeak,Hesperiphona vespertina,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32469,pingro,Pine Grosbeak,Pinicola enucleator,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32543,gcrfin,Gray-crowned Rosy-Finch,Leucosticte tephrocotis,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32556,houfin,House Finch,Haemorhous mexicanus,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32570,purfin,Purple Finch,Haemorhous purpureus,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32734,redpol1,Redpoll,Acanthis flammea,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32747,redcro,Red Crossbill,Loxia curvirostra,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32791,whwcro,White-winged Crossbill,Loxia leucoptera,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32803,eurgol,European Goldfinch,Carduelis carduelis,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32849,pinsis,Pine Siskin,Spinus pinus,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32871,amegfi,American Goldfinch,Spinus tristis,"Fringillidae (Finches, Euphonias, and Allies)","Finches, Euphonias, and Allies"
+32918,laplon,Lapland Longspur,Calcarius lapponicus,Calcariidae (Longspurs and Snow Buntings),Longspurs and Snow Buntings
+32924,chclon,Chestnut-collared Longspur,Calcarius ornatus,Calcariidae (Longspurs and Snow Buntings),Longspurs and Snow Buntings
+32925,smilon,Smith's Longspur,Calcarius pictus,Calcariidae (Longspurs and Snow Buntings),Longspurs and Snow Buntings
+32928,snobun,Snow Bunting,Plectrophenax nivalis,Calcariidae (Longspurs and Snow Buntings),Longspurs and Snow Buntings
+33189,casspa,Cassin's Sparrow,Peucaea cassinii,Passerellidae (New World Sparrows),New World Sparrows
+33191,bacspa,Bachman's Sparrow,Peucaea aestivalis,Passerellidae (New World Sparrows),New World Sparrows
+33196,graspa,Grasshopper Sparrow,Ammodramus savannarum,Passerellidae (New World Sparrows),New World Sparrows
+33243,chispa,Chipping Sparrow,Spizella passerina,Passerellidae (New World Sparrows),New World Sparrows
+33249,clcspa,Clay-colored Sparrow,Spizella pallida,Passerellidae (New World Sparrows),New World Sparrows
+33255,fiespa,Field Sparrow,Spizella pusilla,Passerellidae (New World Sparrows),New World Sparrows
+33283,larspa,Lark Sparrow,Chondestes grammacus,Passerellidae (New World Sparrows),New World Sparrows
+33286,larbun,Lark Bunting,Calamospiza melanocorys,Passerellidae (New World Sparrows),New World Sparrows
+33350,amtspa,American Tree Sparrow,Spizelloides arborea,Passerellidae (New World Sparrows),New World Sparrows
+33354,foxspa,Fox Sparrow,Passerella iliaca,Passerellidae (New World Sparrows),New World Sparrows
+33379,daejun,Dark-eyed Junco,Junco hyemalis,Passerellidae (New World Sparrows),New World Sparrows
+33441,whcspa,White-crowned Sparrow,Zonotrichia leucophrys,Passerellidae (New World Sparrows),New World Sparrows
+33450,gocspa,Golden-crowned Sparrow,Zonotrichia atricapilla,Passerellidae (New World Sparrows),New World Sparrows
+33452,harspa,Harris's Sparrow,Zonotrichia querula,Passerellidae (New World Sparrows),New World Sparrows
+33455,whtspa,White-throated Sparrow,Zonotrichia albicollis,Passerellidae (New World Sparrows),New World Sparrows
+33471,vesspa,Vesper Sparrow,Pooecetes gramineus,Passerellidae (New World Sparrows),New World Sparrows
+33475,lecspa,LeConte's Sparrow,Ammospiza leconteii,Passerellidae (New World Sparrows),New World Sparrows
+33476,seaspa,Seaside Sparrow,Ammospiza maritima,Passerellidae (New World Sparrows),New World Sparrows
+33486,nstspa,Nelson's Sparrow,Ammospiza nelsoni,Passerellidae (New World Sparrows),New World Sparrows
+33492,sstspa,Saltmarsh Sparrow,Ammospiza caudacuta,Passerellidae (New World Sparrows),New World Sparrows
+33498,savspa,Savannah Sparrow,Passerculus sandwichensis,Passerellidae (New World Sparrows),New World Sparrows
+33520,baispa,Baird's Sparrow,Centronyx bairdii,Passerellidae (New World Sparrows),New World Sparrows
+33522,henspa,Henslow's Sparrow,Centronyx henslowii,Passerellidae (New World Sparrows),New World Sparrows
+33527,sonspa,Song Sparrow,Melospiza melodia,Passerellidae (New World Sparrows),New World Sparrows
+33559,linspa,Lincoln's Sparrow,Melospiza lincolnii,Passerellidae (New World Sparrows),New World Sparrows
+33564,swaspa,Swamp Sparrow,Melospiza georgiana,Passerellidae (New World Sparrows),New World Sparrows
+33632,gnttow,Green-tailed Towhee,Pipilo chlorurus,Passerellidae (New World Sparrows),New World Sparrows
+33633,spotow,Spotted Towhee,Pipilo maculatus,Passerellidae (New World Sparrows),New World Sparrows
+33661,eastow,Eastern Towhee,Pipilo erythrophthalmus,Passerellidae (New World Sparrows),New World Sparrows
+33807,yebcha,Yellow-breasted Chat,Icteria virens,Icteridae (Troupials and Allies),Yellow-breasted Chat
+33810,yehbla,Yellow-headed Blackbird,Xanthocephalus xanthocephalus,Icteridae (Troupials and Allies),Blackbirds
+33811,boboli,Bobolink,Dolichonyx oryzivorus,Icteridae (Troupials and Allies),Blackbirds
+33812,wesmea,Western Meadowlark,Sturnella neglecta,Icteridae (Troupials and Allies),Blackbirds
+33815,easmea,Eastern Meadowlark,Sturnella magna,Icteridae (Troupials and Allies),Blackbirds
+33927,orcori,Orchard Oriole,Icterus spurius,Icteridae (Troupials and Allies),Blackbirds
+33982,bulori,Bullock's Oriole,Icterus bullockii,Icteridae (Troupials and Allies),Blackbirds
+34011,balori,Baltimore Oriole,Icterus galbula,Icteridae (Troupials and Allies),Blackbirds
+34017,scoori,Scott's Oriole,Icterus parisorum,Icteridae (Troupials and Allies),Blackbirds
+34020,rewbla,Red-winged Blackbird,Agelaius phoeniceus,Icteridae (Troupials and Allies),Blackbirds
+34065,brocow,Bronzed Cowbird,Molothrus aeneus,Icteridae (Troupials and Allies),Blackbirds
+34072,bnhcow,Brown-headed Cowbird,Molothrus ater,Icteridae (Troupials and Allies),Blackbirds
+34086,rusbla,Rusty Blackbird,Euphagus carolinus,Icteridae (Troupials and Allies),Blackbirds
+34089,brebla,Brewer's Blackbird,Euphagus cyanocephalus,Icteridae (Troupials and Allies),Blackbirds
+34091,comgra,Common Grackle,Quiscalus quiscula,Icteridae (Troupials and Allies),Blackbirds
+34096,botgra,Boat-tailed Grackle,Quiscalus major,Icteridae (Troupials and Allies),Blackbirds
+34185,ovenbi1,Ovenbird,Seiurus aurocapilla,Parulidae (New World Warblers),Wood-Warblers
+34189,woewar1,Worm-eating Warbler,Helmitheros vermivorum,Parulidae (New World Warblers),Wood-Warblers
+34191,louwat,Louisiana Waterthrush,Parkesia motacilla,Parulidae (New World Warblers),Wood-Warblers
+34192,norwat,Northern Waterthrush,Parkesia noveboracensis,Parulidae (New World Warblers),Wood-Warblers
+34195,gowwar,Golden-winged Warbler,Vermivora chrysoptera,Parulidae (New World Warblers),Wood-Warblers
+34196,buwwar,Blue-winged Warbler,Vermivora cyanoptera,Parulidae (New World Warblers),Wood-Warblers
+34201,bawwar,Black-and-white Warbler,Mniotilta varia,Parulidae (New World Warblers),Wood-Warblers
+34202,prowar,Prothonotary Warbler,Protonotaria citrea,Parulidae (New World Warblers),Wood-Warblers
+34203,swawar,Swainson's Warbler,Limnothlypis swainsonii,Parulidae (New World Warblers),Wood-Warblers
+34211,tenwar,Tennessee Warbler,Leiothlypis peregrina,Parulidae (New World Warblers),Wood-Warblers
+34212,orcwar,Orange-crowned Warbler,Leiothlypis celata,Parulidae (New World Warblers),Wood-Warblers
+34220,naswar,Nashville Warbler,Leiothlypis ruficapilla,Parulidae (New World Warblers),Wood-Warblers
+34225,virwar,Virginia's Warbler,Leiothlypis virginiae,Parulidae (New World Warblers),Wood-Warblers
+34230,conwar,Connecticut Warbler,Oporornis agilis,Parulidae (New World Warblers),Wood-Warblers
+34244,macwar,MacGillivray's Warbler,Geothlypis tolmiei,Parulidae (New World Warblers),Wood-Warblers
+34245,mouwar,Mourning Warbler,Geothlypis philadelphia,Parulidae (New World Warblers),Wood-Warblers
+34250,kenwar,Kentucky Warbler,Geothlypis formosa,Parulidae (New World Warblers),Wood-Warblers
+34268,comyel,Common Yellowthroat,Geothlypis trichas,Parulidae (New World Warblers),Wood-Warblers
+34297,hoowar,Hooded Warbler,Setophaga citrina,Parulidae (New World Warblers),Wood-Warblers
+34298,amered,American Redstart,Setophaga ruticilla,Parulidae (New World Warblers),Wood-Warblers
+34299,kirwar,Kirtland's Warbler,Setophaga kirtlandii,Parulidae (New World Warblers),Wood-Warblers
+34300,camwar,Cape May Warbler,Setophaga tigrina,Parulidae (New World Warblers),Wood-Warblers
+34301,cerwar,Cerulean Warbler,Setophaga cerulea,Parulidae (New World Warblers),Wood-Warblers
+34303,norpar,Northern Parula,Setophaga americana,Parulidae (New World Warblers),Wood-Warblers
+34319,magwar,Magnolia Warbler,Setophaga magnolia,Parulidae (New World Warblers),Wood-Warblers
+34323,babwar,Bay-breasted Warbler,Setophaga castanea,Parulidae (New World Warblers),Wood-Warblers
+34325,bkbwar,Blackburnian Warbler,Setophaga fusca,Parulidae (New World Warblers),Wood-Warblers
+34338,manwar1,Mangrove Yellow Warbler,Setophaga petechia,Parulidae (New World Warblers),Wood-Warblers
+34374,chswar,Chestnut-sided Warbler,Setophaga pensylvanica,Parulidae (New World Warblers),Wood-Warblers
+34379,bkpwar,Blackpoll Warbler,Setophaga striata,Parulidae (New World Warblers),Wood-Warblers
+34382,btbwar,Black-throated Blue Warbler,Setophaga caerulescens,Parulidae (New World Warblers),Wood-Warblers
+34389,palwar,Palm Warbler,Setophaga palmarum,Parulidae (New World Warblers),Wood-Warblers
+34394,pinwar,Pine Warbler,Setophaga pinus,Parulidae (New World Warblers),Wood-Warblers
+34401,yerwar,Yellow-rumped Warbler,Setophaga coronata,Parulidae (New World Warblers),Wood-Warblers
+34413,yetwar,Yellow-throated Warbler,Setophaga dominica,Parulidae (New World Warblers),Wood-Warblers
+34427,prawar,Prairie Warbler,Setophaga discolor,Parulidae (New World Warblers),Wood-Warblers
+34436,grawar,Grace's Warbler,Setophaga graciae,Parulidae (New World Warblers),Wood-Warblers
+34442,btywar,Black-throated Gray Warbler,Setophaga nigrescens,Parulidae (New World Warblers),Wood-Warblers
+34448,towwar,Townsend's Warbler,Setophaga townsendi,Parulidae (New World Warblers),Wood-Warblers
+34452,herwar,Hermit Warbler,Setophaga occidentalis,Parulidae (New World Warblers),Wood-Warblers
+34460,btnwar,Black-throated Green Warbler,Setophaga virens,Parulidae (New World Warblers),Wood-Warblers
+34591,canwar,Canada Warbler,Cardellina canadensis,Parulidae (New World Warblers),Wood-Warblers
+34593,wlswar,Wilson's Warbler,Cardellina pusilla,Parulidae (New World Warblers),Wood-Warblers
+34604,paired,Painted Whitestart,Myioborus pictus,Parulidae (New World Warblers),Wood-Warblers
+34683,sumtan,Summer Tanager,Piranga rubra,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34687,scatan,Scarlet Tanager,Piranga olivacea,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34690,westan,Western Tanager,Piranga ludoviciana,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34768,norcar,Northern Cardinal,Cardinalis cardinalis,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34812,robgro,Rose-breasted Grosbeak,Pheucticus ludovicianus,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34814,bkhgro,Black-headed Grosbeak,Pheucticus melanocephalus,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34853,blugrb1,Blue Grosbeak,Passerina caerulea,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34861,lazbun,Lazuli Bunting,Passerina amoena,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34862,indbun,Indigo Bunting,Passerina cyanea,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34876,paibun,Painted Bunting,Passerina ciris,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"
+34882,dickci,Dickcissel,Spiza americana,Cardinalidae (Cardinals and Allies),"Cardinals, Grosbeaks, and Allies"

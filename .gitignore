@@ -1,0 +1,9 @@
+.venv/
+.bonsai-venv/
+argmax-client/.build/
+__pycache__/
+*.pyc
+models/
+data/birdlog.csv
+.DS_Store
+.env
